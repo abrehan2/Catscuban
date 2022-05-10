@@ -315,6 +315,7 @@ transition: all 0.2s ease;
      top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
+    color: var(--black);
 }
 
 .slider .slide .info h2{
@@ -662,7 +663,8 @@ opacity: 1;
        height: 100%;
        padding: 40px;
        border-radius: 10px;
-   }
+       color: black;
+          }
 
    .product .popup-card .close-btn{
        color: #fff;
@@ -690,7 +692,7 @@ font-family: var(--paragraph);
 font-weight: 400;
 text-align: justify;
 margin: 10px;
-text-transform: capitalize;
+text-transform: none;
 }
 
 
@@ -1037,6 +1039,7 @@ text-transform: capitalize;
     padding: 20px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    
   }
 
   .product .popup-card .info h2{
